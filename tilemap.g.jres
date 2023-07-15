@@ -52,6 +52,12 @@
         "tilemapTile": true,
         "displayName": "gridtile"
     },
+    "tile9": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "fstart"
+    },
     "level2": {
         "id": "level2",
         "mimeType": "application/mkcd-tilemap",
@@ -106,6 +112,22 @@
             "sprites.castle.rock1"
         ],
         "displayName": "goal2"
+    },
+    "aqua1": {
+        "id": "aqua1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwYTAwMDgwMDAxMDAwMDAwMDAwMDAwMDAwMDA2MDIwMDAwMDAwMDAwMDIwMjAwMDIwMjAwMDUwMDAwMDIwNzAwMDIwMDAyMDAwMDAwMDAwMjAwMDIwMDAwMDAwMjAwMDAwMDAyMDAwMjAwMDAwMDAwMDIwMDAyMDIwMjAwMDAwMDAwMDAwNzAyMDAwMDA3MDIwMDAwMDMwNDAzMDQwMzA0MDMwNDAzMDQwMDAwMDAwMDAwMDIwMDAwMjIyMDAyMDAyMDAwMDIwMjAwMjAyMDAwMjAwMDIwMjAwMDAwMDIyMjAyMDAwMDIwMDAyMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.builtin.oceanDepths10",
+            "sprites.builtin.oceanSand0",
+            "sprites.builtin.coral2",
+            "sprites.builtin.coral1",
+            "myTiles.tile9",
+            "sprites.builtin.oceanDepths8",
+            "sprites.dungeon.collectibleRedCrystal"
+        ],
+        "displayName": "aqua1"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

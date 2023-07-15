@@ -18,6 +18,8 @@ namespace myTiles {
     export const tile7 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile1 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile9 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -62,6 +64,17 @@ namespace myTiles {
 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 
 `, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,sprites.castle.tileGrass1,sprites.castle.tileGrass2,sprites.castle.tilePath1,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath4,sprites.castle.tilePath5,sprites.castle.tilePath6,myTiles.tile3,sprites.castle.rock1], TileScale.Sixteen);
+            case "aqua1":
+            case "aqua1":return tiles.createTilemap(hex`0a0008000100000000000000000602000000000002020002020005000002070002000200000000020002000000020000000200020000000002000202020000000000070200000702000003040304030403040304`, img`
+. . . . . . . . . . 
+2 . . . . . 2 2 . 2 
+2 . . . . 2 . . 2 . 
+2 . . . . 2 . 2 . . 
+. 2 . . . 2 . 2 . . 
+. . 2 . 2 2 2 . . . 
+. . . 2 . . . 2 . . 
+. . . . . . . . . . 
+`, [myTiles.transparency16,sprites.builtin.oceanDepths10,sprites.builtin.oceanSand0,sprites.builtin.coral2,sprites.builtin.coral1,myTiles.tile9,sprites.builtin.oceanDepths8,sprites.dungeon.collectibleRedCrystal], TileScale.Sixteen);
         }
         return null;
     })
@@ -85,6 +98,8 @@ namespace myTiles {
             case "tile7":return tile7;
             case "gridtile":
             case "tile1":return tile1;
+            case "fstart":
+            case "tile9":return tile9;
         }
         return null;
     })
