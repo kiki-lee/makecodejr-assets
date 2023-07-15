@@ -41,23 +41,23 @@ namespace myTiles {
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 `, [myTiles.transparency16,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7], TileScale.Sixteen);
             case "goal1":
-            case "level3":return tiles.createTilemap(hex`0a0008000101010101010101010101010101010101010101010101010101010101010101010101010101010101010b0201010c01010103040304030403040304050606060606060606070809090909090909090a`, img`
+            case "level3":return tiles.createTilemap(hex`0a0008000101010101010101010101010101010101010101010101010101010101010101010101010101010101010b020101010c010103040304030403040304050606060606060606070809090909090909090a`, img`
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
-. . . . . . 2 . . . 
+. . . . . . . 2 . . 
 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 
 `, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,sprites.castle.tileGrass1,sprites.castle.tileGrass2,sprites.castle.tilePath1,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath4,sprites.castle.tilePath5,sprites.castle.tilePath6,myTiles.tile3,sprites.castle.rock1], TileScale.Sixteen);
             case "goal2":
-            case "level1":return tiles.createTilemap(hex`0a0008000101010101010101010101010101010101010101010101010101010101010101010101010101010101010b0101020c01010103040304030403040304050606060606060606070809090909090909090a`, img`
+            case "level1":return tiles.createTilemap(hex`0a0008000101010101010101010101010101010101010101010101010101010101010101010101010101010101010b010102010c010103040304030403040304050606060606060606070809090909090909090a`, img`
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
-. . . . . . 2 . . . 
+. . . . . . . 2 . . 
 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 
